@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Веб-визитка Сетжара</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="hero">
+        <header>
+            <div class="logo">Setzhar</div>
+            <div class="burger-menu">
+                <div class="burger-line"></div>
+                <div class="burger-line"></div>
+                <div class="burger-line"></div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="about.html">Обо мне</a></li>
+                    <li><a href="works.html">Работы</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="hero-content">
+            <h1>Привет, я Сетжар</h1>
+            <p>Я начинающий веб-разработчик</p>
+            <div class="hero-buttons">
+                <a href="about.html" class="btn">Узнать больше</a>
+                <a href="works.html" class="btn">Работы</a>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <section class="about">
+            <img src="./photo_5458417509662319761_y.jpg" alt="Мое фото"/>
+            <div class="about-content">
+                <h2>Обо мне</h2>
+                <p>Я начинающий веб-разработчик</p>
+                <p>Привет, я Сетжар. Я начинающий веб-разработчик, который стремится создавать современные и функциональные веб-сайты. Моя цель - использовать современные технологии и дизайн для создания веб-сайтов, которые не только выглядят красиво, но и работают эффективно.</p>
+                <p>Я увлечен веб-разработкой и постоянно стремлюсь к самосовершенствованию. Мои навыки включают HTML, CSS, JavaScript, а также базовые знания о Vue и Node.js. Я также владею английским языком на уровне B2.</p>
+            </div>
+        </section>
+        <section class="contact">
+           <a href="https://t.me/this_name_ew" class="contact-link"><i class="fa-brands fa-telegram"></i></a>
+           <a href="https://www.instagram.com/setzhar" class="contact-link"><i class="fa-brands fa-instagram"></i></a>
+           <a href="#" class="contact-link"><i class="fa-brands fa-whatsapp"></i></a>
+           <a href="#" class="contact-link"><i class="fa-brands fa-facebook"></i></a>
+        </section>
+        <section class="my-services">
+            <h2>Мои услуги</h2>
+            <div class="service">
+                <div class="service-item">
+                    <div class="service-item__title">
+                        <h4>Лендинг</h4>
+                        <span>От 20000₸</span>
+                    </div>
+                    <div class="service-item__description">
+                        <p>Лендинг - это одностраничный сайт, который предназначен для продажи товаров или услуг.
+                            Необходимо для привлечения клиентов и увеличения продаж.
+                        </p>
+                    </div>
+                    <div class="service-item__shop">
+                        <span>от 3 рабочих дней</span>
+                        <a href="#" class="service-item__btn">Заказать</a>
+                    </div>
+                </div>
+
+                <div class="service-item">
+                    <div class="service-item__title">
+                        <h4>Многостраничный сайт</h4>
+                        <span>От 30000₸</span>
+                    </div>
+                    <div class="service-item__description">
+                        <p>Многостраничный сайт - это сайт, который состоит из нескольких страниц.
+                            Имеет больше функций и возможностей. Содержит больше информации о компании или о себе.
+                        </p>
+                    </div>
+                    <div class="service-item__shop">
+                        <span>от 5 рабочих дней</span>
+                        <a href="#" class="service-item__btn">Заказать</a>
+                    </div>
+                </div>
+
+                <div class="service-item">
+                    <div class="service-item__title">
+                        <h4>Интернет магазин</h4>
+                        <span>От 50000₸</span>
+                    </div>
+                    <div class="service-item__description">
+                        <p>Интернет магазин - это сайт со сложной структурой.
+                            Имеет больше функций и возможностей. Содержит больше информации о компании или о себе.
+                            Могут быть различные категории товаров и услуг. Оплата товара может быть как онлайн, так и оплата при получении.
+                        </p>
+                    </div>
+                    <div class="service-item__shop">
+                        <span>от 10 рабочих дней</span>
+                        <a href="#" class="service-item__btn">Заказать</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="my-works">
+            <h2>Мои работы</h2>
+            <div class="works">
+                <span>Пока что пусто :(</span>
+            </div>
+        </section>
+        <section class="callback">
+            <h2>Обратная связь</h2>
+            <form action="#" class="callback-form">
+                <div class="form-group">
+                    <label for="name">Ваше имя</label>
+                    <input type="text" id="name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Ваш email</label>
+                    <input type="email" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Ваше сообщение</label>
+                    <textarea id="message"></textarea>
+                </div>
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright © 2025 Setzhar</p>
+        <p>Все права защищены</p>
+        <div class="contact">
+            <a href="mailto:azh09195@gmail.com">azh09195@gmail.com</a>
+            <a href="https://t.me/this_name_ew">Telegram</a>
+            <a href="https://www.instagram.com/setzhar">Instagram</a>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
